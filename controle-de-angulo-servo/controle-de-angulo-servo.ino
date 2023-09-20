@@ -34,11 +34,6 @@ void loop()
       servo.write(value);
       delay(5000);
     }
-    else if(value == 0)
-    {
-      writeValue(10);
-      servo.write(10);
-    }
     else Serial.println("Insira um angulo valido");
   }
 }
